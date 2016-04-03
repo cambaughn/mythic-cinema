@@ -15,7 +15,7 @@
  */
 
 
-$body-bg: 	white;
+$body-bg: 	#1c1c1c;
 $font-family-sans-serif: 	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 @import "bootstrap-sprockets";
@@ -26,5 +26,6 @@ $font-family-sans-serif: 	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif
 .logo {
 	width: 100%;
 	height: auto;
-	margin-top: 40px;
+	margin-top: -100px;
 }
+
