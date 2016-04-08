@@ -15,8 +15,13 @@
  */
 
 
+@font-face {
+  font-family: "Champagne & Limousines";
+  src: url(/assets/fonts/"Champagne & Limousines.otf") format("truetype");
+}
+
 $body-bg: 	#1c1c1c;
-$font-family-sans-serif: 	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif: 	'Champagne & Limousines', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -26,6 +31,9 @@ $font-family-sans-serif: 	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif
 .logo {
 	width: 100%;
 	height: auto;
-	margin-top: -100px;
+	margin-top: 150px;
 }
 
+.tagline {
+	padding-top: 20px;
+}
