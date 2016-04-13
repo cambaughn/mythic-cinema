@@ -68,20 +68,17 @@ a {
 	margin-right: 40px;
 }
 
-@media screen and (min-aspect-ratio: 4/3) {
 .headline {
-	margin-top: 2em;
+	margin-top: 150px;
 	font-weight: bold;
 	color: #fe9015;
 	font-size: 6em;
-}
 }
 
 .info {
 	position: absolute;
 	width: 100%;
 	margin-left: -15px;
-	margin-bottom: 50%;
 }
 
 .bold {
