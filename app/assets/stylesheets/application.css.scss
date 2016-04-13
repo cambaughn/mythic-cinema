@@ -90,6 +90,13 @@ a {
 	color: #6bc5ea;
 }
 
+@media only screen and (max-device-width: 480px) {
+	body {
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	}
+}
+
 html{
 	/* This image will be displayed fullscreen */
 	background-image: url('boba pile bottom left.png'), url('boba pile bottom right.png');
